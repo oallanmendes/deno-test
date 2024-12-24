@@ -2,8 +2,8 @@ import express from 'express';
 
 const app = express();
 
-app.get('/', (request, response) => {
-  return response.send("<h1>HELLO FROM NODE</h1>")
+app.use(async (request, response) => {
+  response.redirect('http://lightfold.com.br')
 })
 
 app.listen(3000, '0.0.0.0', () => {
