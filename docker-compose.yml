@@ -13,7 +13,7 @@ services:
 
   tailscale-job-concierge:
     image: tailscale/tailscale:latest
-    hostname: jobconcierge-redirect
+    hostname: jobconcierge
     environment:
       - TS_AUTHKEY=tskey-client-kT7Sk7c6e121CNTRL-U1eRTARqwz3pVdQkm9Va14EBCZHMFcArA
       - TS_EXTRA_ARGS=--advertise-tags=tag:container
