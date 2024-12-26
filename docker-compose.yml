@@ -15,7 +15,7 @@ services:
     image: tailscale/tailscale:latest
     hostname: jobconcierge
     environment:
-      - TS_AUTHKEY=tskey-client-kT7Sk7c6e121CNTRL-U1eRTARqwz3pVdQkm9Va14EBCZHMFcArA
+      - TS_AUTHKEY=tskey-client-k9vn8RBQc911CNTRL-htgB1pVEfYCyLn6gETsHZCe8fNwgctyse?ephemeral=false
       - TS_EXTRA_ARGS=--advertise-tags=tag:container
       - TS_STATE_DIR=/var/lib/tailscale
     volumes:
