@@ -3,9 +3,9 @@ import express from 'express';
 const app = express();
 
 app.use(async (request, response) => {
-  response.redirect('http://lightfold.com.br')
+  response.redirect('http://jobconcierge.lightfold.com.br')
 })
 
-app.listen(3005, '0.0.0.0', () => {
+app.listen(80, '0.0.0.0', () => {
   console.log('Running')
 })
